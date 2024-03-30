@@ -1,0 +1,25 @@
+@import '../../assets/styles/settings.scss';
+.all-matches{
+   display: flex;
+   padding: 110px 0;
+   justify-content: center;
+    .all-matches-dashboard{
+        width: 90%;
+        height: 90vh;
+        background-color: #001c0f;
+        border-radius: 20px;
+        display: flex;
+        padding: 30px;
+        gap: 30px;
+        .left{
+            width: 30%;
+            background-color: #004e269f;
+            border-radius: 20px;
+        }
+        .right{
+            background-color: #004e269f;
+            border-radius: 20px;
+            width: 70%;
+        }
+    }
+}
