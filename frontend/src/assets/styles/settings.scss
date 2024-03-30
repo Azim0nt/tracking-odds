@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+
+$dark-blue: #000f40;
+$dark-violet: #3c0096;
+$dark-green:#004332;
+$green:#00623c;
+
+
+$large-screen:1350px;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+body{
+  background-color: $dark-green;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
